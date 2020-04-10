@@ -71,7 +71,7 @@ console.log(person.species); // prints 'humam'
 The spread and rest operators actually use the same syntax: `...`
 It's usage determines whether you're using it as the spread or rest operator.
 
-**Spread**
+**Spread:**
 The spread operator allows you to pull elements out of an array (=> split the array into a list of its elements) or pull the properties out of an object.
 
 ```javascript
@@ -92,7 +92,7 @@ const newObject = {
 // }
 ```
 
-**Rest**
+**Rest:**
 It is used to pass unlimited number of arguments to the function.
 
 ```
@@ -142,7 +142,7 @@ printName({name: 'Max', age: 28}); // prints 'Max')
 
 An explanation of JavaScript's pass-by-value, which is unlike pass-by-reference from other languages.
 
-**Primitive Types**
+**Primitive Types:**
 The in-memory value of a primitive type is it's actual value (e.g. boolean `true`, number `42`). A primitive type can be stored in the fixed amount of memory available.
 
 - null
@@ -153,7 +153,7 @@ The in-memory value of a primitive type is it's actual value (e.g. boolean `true
 
 Primitive types are also known as: scalar types or simple types.
 
-**Reference Types**
+**Reference Types:**
 A reference type can contain other values. Since the contents of a reference type can not fit in the fixed amount of memory available for a variable, the in-memory value of a reference type is the reference itself (a memory address).
 
 - Array
@@ -163,7 +163,7 @@ A reference type can contain other values. Since the contents of a reference typ
 Reference types are also known as: complex types or container types.
 
 ## Array functions
-[10 JavaScript array methods you should know](https://dev.to/frugencefidel/10-javascript-array-methods-you-should-know-4lk3)
+[10 JavaScript array methods you should know](https://dev.to/frugencefidel/10-javascript-array-methods-you-should-know-4lk3).  
 [A list of all array functios](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 
