@@ -101,6 +101,8 @@ In JSX expressions that contain both an opening tag and a closing tag, the conte
 
 The state is an instance of React Component Class can be defined as an object of a set of observable properties that control the behavior of the component. In other words, the State of a component is an object that holds some information that may change over the lifetime of the component.
 
+State simply is a property of the component class, you have to call it state  though - the name is not optional. You can then access it via *this.state* in your class JSX code (which you return in the required render()  method).
+
 Actually, only changes in props  and/ or state  trigger React to re-render your components and potentially update the DOM in the browser
 
 ```javascript
@@ -116,6 +118,8 @@ class NewPost extends Component { // state can only be accessed in class-based c
   }
 }
 ```
+
+## Methods
 
 
 
